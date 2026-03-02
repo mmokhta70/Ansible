@@ -1,0 +1,8 @@
+all:
+     childern:
+          linux_srv:
+               hosts:
+                    redhat:
+                         ansible_host: 192.168.0.12
+                    ubuntu:
+                         ansible_host: 192.168.0.13
